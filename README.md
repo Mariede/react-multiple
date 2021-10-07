@@ -69,7 +69,12 @@ import Multiple from 'components/_common/_form/Multiple';
 				<div id="categorias" data-value={ formElements.categorias }>
 					<Multiple
 						optionsData={ data.options && data.options.categorias }
-						optionsKeys={ { id: 'id', name: 'categoria' } }
+						optionsKeys={
+							{
+								id: 'id',
+								name: 'categoria'
+							}
+						}
 						optionsSelected={ formElements.categorias }
 						id="categorias"
 						handleFormElements={ handleFormElements }
