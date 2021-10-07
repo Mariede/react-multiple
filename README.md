@@ -64,21 +64,18 @@ import Multiple from 'components/_common/_form/Multiple';
 	<Row form>
 		<Col md={ 8 }>
 			<FormGroup>
-				<Label for="multiple-box-out-categorias">Categorias</Label>
-				<div id="categorias" data-value={ formElements.categorias }>
-					<Multiple
-						optionsData={ data.options && data.options.categorias }
-						optionsKeys={
-							{
-								id: 'id',
-								name: 'categoria'
-							}
+				<Multiple
+					optionsData={ data.options && data.options.categorias }
+					optionsKeys={
+						{
+							id: 'id',
+							name: 'categoria'
 						}
-						optionsSelected={ formElements.categorias }
-						id="categorias"
-						handleFormElements={ handleFormElements }
-					/>
-				</div>
+					}
+					optionsSelected={ formElements.categorias }
+					id="categorias"
+					handleFormElements={ handleFormElements }
+				/>
 			</FormGroup>
 		</Col>
 
