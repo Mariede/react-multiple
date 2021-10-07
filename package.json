@@ -1,0 +1,31 @@
+{
+  "name": "react-multiple",
+  "version": "1.0.0",
+  "description": "React component for a custom HTML form select element",
+  "main": "./lib/components/Multiple",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=10.5.0"
+  },
+  "dependencies": {
+    "reactstrap": "^8.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariede/react-multiple.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mariede/react-multiple/issues"
+  },
+  "homepage": "https://github.com/Mariede/react-multiple#readme",
+  "author": "Michel Guimarães Ariede"
+}
