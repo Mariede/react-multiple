@@ -1,6 +1,6 @@
 # MULTIPLE
 
-React component for a custom HTML form select element
+React component for a custom HTML form select element - integrated, multiple selection, responsive
 
 > ![](_media-readme/img-react-multiple.png)
 
